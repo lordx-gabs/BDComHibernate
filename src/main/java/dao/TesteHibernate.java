@@ -10,10 +10,6 @@ import model.Usuario;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
-/**
- *
- * @author tiago
- */
 public class TesteHibernate {
     public static void main(String[] args) {
         
