@@ -1,0 +1,4 @@
+char[] senha = view.getPasswordFieldSenha().getPassword();
+Arrays.fill(senha, ' '); // isso é para limpar a senha da memoria
+try(Connection conexao = new Conexao().getConnection();) // um try-with-resources para ajudar no fechamento de conexões e qualquer 
+coisa que seja implementada por AutoCloseable (ou Closeable)
